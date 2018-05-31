@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vitalregistration.ReplaceController">
+    <stylesheets>
+        <URL value="@replace.css" />
+    </stylesheets>
+   <children>
+      <MenuBar layoutY="4.0" prefHeight="38.0" prefWidth="1201.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Print" />
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Undo" />
+                  <MenuItem mnemonicParsing="false" text="Reset" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Pane layoutX="1.0" layoutY="42.0" prefHeight="146.0" prefWidth="1199.0" style="-fx-background-color: #d1c4b1; -fx-border-radius: 10px; -fx-border-color: black; -fx-border-width: 2px;">
+         <children>
+            <ImageView fitHeight="146.0" fitWidth="737.0" layoutX="73.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/logo_bottom.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="608.0" layoutY="12.0" prefHeight="126.0" prefWidth="274.0" style="-fx-background-color: #d1c4b1;" />
+            <Label layoutX="255.0" layoutY="14.0" prefHeight="110.0" prefWidth="711.0" text="ADDIS ABABA CITY ADMINISTRATION">
+               <font>
+                  <Font name="Times New Roman" size="36.0" />
+               </font>
+               <effect>
+                  <Glow level="0.53" />
+               </effect>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="261.0" layoutY="285.0" prefHeight="21.0" prefWidth="57.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="318.0" layoutY="283.0" prefHeight="31.0" prefWidth="169.0" />
+      <TextField layoutX="647.0" layoutY="283.0" prefHeight="31.0" prefWidth="169.0" />
+      <Label layoutX="506.0" layoutY="285.0" prefHeight="27.0" prefWidth="122.0" text="Father's Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="839.0" layoutY="285.0" prefHeight="27.0" prefWidth="169.0" text="Grandfather's Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="1008.0" layoutY="283.0" prefHeight="31.0" prefWidth="169.0" />
+      <RadioButton layoutX="448.0" layoutY="352.0" mnemonicParsing="false" text="Birth Certificate" />
+      <RadioButton layoutX="644.0" layoutY="352.0" mnemonicParsing="false" text="Death Certificate" />
+      <Button layoutX="856.0" layoutY="347.0" mnemonicParsing="false" text="Go" />
+      <Label layoutX="258.0" layoutY="570.0" prefHeight="21.0" prefWidth="57.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="315.0" layoutY="568.0" prefHeight="31.0" prefWidth="169.0" />
+      <TextField layoutX="644.0" layoutY="568.0" prefHeight="31.0" prefWidth="169.0" />
+      <Label layoutX="503.0" layoutY="570.0" prefHeight="27.0" prefWidth="122.0" text="Father's Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="836.0" layoutY="570.0" prefHeight="27.0" prefWidth="169.0" text="Grandfather's Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="1005.0" layoutY="568.0" prefHeight="31.0" prefWidth="169.0" />
+      <RadioButton layoutX="448.0" layoutY="653.0" mnemonicParsing="false" text="Birth Certificate" />
+      <RadioButton layoutX="644.0" layoutY="653.0" mnemonicParsing="false" text="Death Certificate" />
+      <Button layoutX="856.0" layoutY="648.0" mnemonicParsing="false" text="Go" />
+      <Label layoutX="258.0" layoutY="483.0" prefHeight="21.0" prefWidth="57.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="315.0" layoutY="481.0" prefHeight="31.0" prefWidth="169.0" />
+      <TextField layoutX="644.0" layoutY="481.0" prefHeight="31.0" prefWidth="169.0" />
+      <Label layoutX="503.0" layoutY="483.0" prefHeight="27.0" prefWidth="122.0" text="Father's Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="836.0" layoutY="483.0" prefHeight="27.0" prefWidth="169.0" text="Grandfather's Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="1005.0" layoutY="481.0" prefHeight="31.0" prefWidth="169.0" />
+      <Label layoutX="287.0" layoutY="437.0" text="Husband:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="540.0" text="Wife:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="issueCertificates" layoutX="1.0" layoutY="188.0" mnemonicParsing="false" onAction="#HandleButtonAction" prefHeight="95.0" prefWidth="244.0" style="-fx-border-radius: 10px; -fx-background-color: #d1c4b1; -fx-border-color: black;" text="Issue Certificates" textFill="#4d3722">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="issueID" layoutX="1.0" layoutY="283.0" mnemonicParsing="false" onAction="#HandleButtonAction" prefHeight="95.0" prefWidth="244.0" style="-fx-border-radius: 10px; -fx-background-color: #d1c4b1; -fx-border-color: black;" text="Issue ID Card" textFill="#4d3722">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="issueRelease" layoutX="1.0" layoutY="378.0" mnemonicParsing="false" onAction="#HandleButtonAction" prefHeight="95.0" prefWidth="244.0" style="-fx-border-radius: 10px; -fx-background-color: #d1c4b1; -fx-border-color: black;" text="Issue Release Letter" textFill="#4d3722">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="replaceLost" layoutX="1.0" layoutY="473.0" mnemonicParsing="false" onAction="#HandleButtonAction" prefHeight="95.0" prefWidth="244.0" style="-fx-border-radius: 10px; -fx-background-color: #d1c4b1; -fx-border-color: black;" text="Replace Lost Certificate" textFill="#4d3722">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="online" layoutX="1.0" layoutY="568.0" mnemonicParsing="false" onAction="#HandleButtonAction" prefHeight="95.0" prefWidth="244.0" style="-fx-border-radius: 10px; -fx-background-color: #d1c4b1; -fx-border-color: black;" text="Handle Online Forms" textFill="#4d3722">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="search" layoutX="1.0" layoutY="663.0" mnemonicParsing="false" onAction="#HandleButtonAction" prefHeight="95.0" prefWidth="244.0" style="-fx-border-radius: 10px; -fx-background-color: #d1c4b1; -fx-border-color: black;" text="Search" textFill="#4d3722">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" layoutX="1.0" layoutY="758.0" mnemonicParsing="false" onAction="#HandleButtonAction" prefHeight="95.0" prefWidth="244.0" style="-fx-border-radius: 10px; -fx-background-color: #d1c4b1; -fx-border-color: black;" text="Logout" textFill="#4d3722">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
