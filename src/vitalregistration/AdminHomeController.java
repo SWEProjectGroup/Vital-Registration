@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author Lydia
  */
-public class AdminHomeController implements Initializable {
+public class AdminHomeController extends ButtonHandlers implements Initializable {
 
     /**
      * Initializes the controller class.
